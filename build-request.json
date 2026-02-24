@@ -1,0 +1,40 @@
+{
+  "kind": "build_request",
+  "title": "Change hero section text to black color",
+  "projectName": "Gadin Technologies",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "text": "In the HeroSection component, change the text color of the company name ('Gadin Technologies'), the tagline ('Nature's Finest Foxnuts, Delivered Worldwide'), and the description paragraph ('We source and export premium-grade foxnuts...') to black.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Make this text in black color -Gadin Technologies\nNature's Finest Foxnuts, Delivered Worldwide\n\nWe source and export premium-grade foxnuts (makhana) from the heartlands of India, bringing the finest quality to international markets with uncompromising standards."
+        ]
+      },
+      "acceptanceCriteria": [
+        "The company name 'Gadin Technologies' in the hero section is rendered in black.",
+        "The tagline 'Nature's Finest Foxnuts, Delivered Worldwide' in the hero section is rendered in black.",
+        "The description paragraph starting with 'We source and export premium-grade foxnuts...' in the hero section is rendered in black.",
+        "No other text colors on the page are affected by this change."
+      ]
+    }
+  ],
+  "constraints": [
+    "Only change text colors in the HeroSection component — do not alter layout, typography size, or other styling.",
+    "Do not modify any files under frontend/src/hooks/ or frontend/src/components/ui."
+  ],
+  "nonGoals": [
+    "Changing text colors in any section other than the hero section.",
+    "Modifying CTA button styles or colors.",
+    "Any backend changes."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

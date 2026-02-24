@@ -1,0 +1,13 @@
+{
+  "frontend/src/index.css": "Global stylesheet with a warm earthy OKLCH color system (deep forest greens, tans, gold accents), imports Playfair Display serif for headings and Inter sans-serif for body text, and sets smooth scroll behavior.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with custom font families (Playfair Display serif, Inter sans), earthy color tokens (forest, gold, tan), warm box shadows, and a fade-up animation keyframe.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for the backend — `useGetAllSubmissions` fetches all contact form submissions, and `useSubmitContactForm` is a mutation that calls `submitForm` and invalidates the submissions cache on success.",
+  "frontend/src/App.tsx": "Root application component that composes the full single-page layout: Header, HeroSection, AboutSection, ProductsSection, WhyChooseUsSection, ContactSection, and Footer.",
+  "frontend/src/components/Header.tsx": "Sticky responsive header with the Gadin Technologies logo, company name, desktop nav links with smooth scroll, and a mobile hamburger menu that reveals a slide-down nav panel.",
+  "frontend/src/components/HeroSection.tsx": "Full-viewport hero section with the generated background image, dark overlay, company name in large serif black type, black tagline, black descriptive copy, and two CTA buttons linking to Products and Contact sections.",
+  "frontend/src/components/AboutSection.tsx": "About Us section with company description, three highlight cards (Farm-to-Export, Global Reach, Quality Certified), and key statistics (10+ years, 25+ countries, 500+ clients).",
+  "frontend/src/components/ProductsSection.tsx": "Products showcase section featuring the generated foxnut product image, product badges, nutritional/export specs grid, feature checklist, and descriptive copy about foxnuts as a superfood.",
+  "frontend/src/components/WhyChooseUsSection.tsx": "\"Why Choose Us\" section on a deep green background with six value-proposition cards covering quality, logistics, certifications, packaging, pricing, and support.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with company contact info panel, a free-sample callout, and a fully wired contact form (name, email, message) connected to the backend via `useSubmitContactForm` with loading, success, and error states.",
+  "frontend/src/components/Footer.tsx": "Full footer with brand logo, tagline, social links, quick navigation, product list, copyright line, and caffeine.ai attribution with UTM tracking."
+}

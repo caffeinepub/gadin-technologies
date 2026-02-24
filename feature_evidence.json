@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-in-the-herosection-component-change-the-text-color-of-the-company-name-gadin-technologies-the-tagline-nature-s-finest-foxnuts-delivered-worldwide-and-the-description-paragraph-we-source-and-export-premium-grade-foxnuts-to-black",
+      "featureTitle": "In the HeroSection component, change the text color of the company name ('Gadin Technologies'), the tagline ('Nature's Finest Foxnuts, Delivered Worldwide'), and the description paragraph ('We source and export premium-grade foxnuts...') to black.",
+      "files": [
+        "frontend/src/components/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

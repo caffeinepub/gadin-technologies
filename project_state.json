@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Business website for Gadin Technologies, a foxnut export company.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-professional-multi-section-landing-page-for-gadin-technologies-a-foxnut-export-company-include-a-hero-section-with-company-name-and-tagline-an-about-us-section-describing-the-company-a-products-section-showcasing-foxnuts-a-why-choose-us-section-highlighting-export-expertise-and-a-contact-section-with-a-contact-form-name-email-message-fields",
+      "title": "Create a professional multi-section landing page for Gadin Technologies, a foxnut export company. Include: a hero section with company name and tagline, an About Us section describing the company, a Products section showcasing foxnuts, a Why Choose Us section highlighting export expertise, and a Contact section with a contact form (name, email, message fields).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-sticky-navigation-header-with-the-gadin-technologies-logo-name-and-links-to-all-page-sections-home-about-products-why-us-contact-the-header-should-be-responsive-and-include-a-mobile-hamburger-menu",
+      "title": "Implement a sticky navigation header with the Gadin Technologies logo/name and links to all page sections (Home, About, Products, Why Us, Contact). The header should be responsive and include a mobile hamburger menu.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-wire-the-contact-form-on-the-frontend-to-call-the-backend-submission-function-show-a-success-message-after-successful-submission-and-an-error-message-on-failure",
+      "title": "Wire the contact form on the frontend to call the backend submission function. Show a success message after successful submission and an error message on failure.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-warm-earthy-visual-theme-throughout-the-site-inspired-by-nature-and-agriculture-think-deep-greens-warm-tans-off-whites-and-subtle-gold-accents-use-elegant-serif-or-semi-serif-typography-for-headings-and-clean-sans-serif-for-body-text-the-layout-should-feel-premium-and-trustworthy-suited-to-an-international-export-business",
+      "title": "Apply a warm, earthy visual theme throughout the site — inspired by nature and agriculture (think deep greens, warm tans, off-whites, and subtle gold accents). Use elegant serif or semi-serif typography for headings and clean sans-serif for body text. The layout should feel premium and trustworthy, suited to an international export business.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-generated-static-images-hero-background-foxnut-product-image-and-company-logo-icon-from-frontend-public-assets-generated-throughout-the-appropriate-sections-of-the-website",
+      "title": "Render the generated static images (hero background, foxnut product image, and company logo icon) from frontend/public/assets/generated throughout the appropriate sections of the website.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-herosection-component-change-the-text-color-of-the-company-name-gadin-technologies-the-tagline-nature-s-finest-foxnuts-delivered-worldwide-and-the-description-paragraph-we-source-and-export-premium-grade-foxnuts-to-black",
+      "title": "In the HeroSection component, change the text color of the company name ('Gadin Technologies'), the tagline ('Nature's Finest Foxnuts, Delivered Worldwide'), and the description paragraph ('We source and export premium-grade foxnuts...') to black.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a professional business website for Gadin Technologies (foxnut exporter)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Store contact form submissions in the backend. Expose a Motoko function to save submissions (name, email, message, timestamp) and a query to retrieve them.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Change hero section text (company name, tagline, and description paragraph) to black color",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Gadin Technologies",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

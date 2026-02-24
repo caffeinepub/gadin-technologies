@@ -1,0 +1,24 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Change hero section text to black color",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "summary": "Change text color of company name, tagline, and description in HeroSection to black",
+      "acceptanceCriteria": [
+        "The company name 'Gadin Technologies' in the hero section is rendered in black.",
+        "The tagline 'Nature's Finest Foxnuts, Delivered Worldwide' in the hero section is rendered in black.",
+        "The description paragraph starting with 'We source and export premium-grade foxnuts...' in the hero section is rendered in black.",
+        "No other text colors on the page are affected by this change."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Update the text color styling for the company name heading, tagline subheading, and description paragraph to black. Change the existing text color classes (likely text-white or similar) to text-black for these three specific text elements while preserving all other styling, layout, background overlays, and CTA button styles."
+        }
+      ]
+    }
+  ]
+}

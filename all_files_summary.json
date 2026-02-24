@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Motoko actor defining a ContactFormSubmission type and two methods: `submitForm` to store new submissions with a timestamp, and `getAllSubmissions` to return all stored submissions as an array.",
+  "feature_evidence.json": "Feature evidence report documenting that the HeroSection component was updated to change the text color of the company name, tagline, and description paragraph to black.",
+  "frontend-file-summaries.txt": "JSON file containing one-sentence summaries of each frontend source file, describing their purpose and key contents for quick reference.",
+  "frontend/index.css": "Tailwind CSS entry file that defines OKLCH-based CSS custom properties for light and dark themes, covering background, foreground, primary, muted, border, and chart color tokens.",
+  "frontend/index.html": "Minimal HTML shell for the Gadin Technologies SPA, setting the page title and mounting the React app via a `<div id='root'>` and a module script pointing to `src/main.tsx`.",
+  "frontend/src/App.tsx": "Root React component that assembles the full single-page layout by composing Header, HeroSection, AboutSection, ProductsSection, WhyChooseUsSection, ContactSection, and Footer.",
+  "frontend/src/components/AboutSection.tsx": "About Us section displaying company background text, key statistics (10+ years, 25+ countries, 500+ clients), and three highlight cards for Farm-to-Export, Global Reach, and Quality Certified.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with a company info panel (email, phone, address) and a controlled form wired to the `useSubmitContactForm` mutation, handling loading, success, and error states.",
+  "frontend/src/components/Footer.tsx": "Site footer with brand logo, tagline, social media links, smooth-scroll quick nav, product list, copyright line, and a caffeine.ai attribution link.",
+  "frontend/src/components/Header.tsx": "Sticky responsive header featuring the Gadin Technologies logo, desktop nav with smooth-scroll links, a 'Get in Touch' CTA button, and a mobile hamburger menu with a slide-down nav panel.",
+  "frontend/src/components/HeroSection.tsx": "Full-screen hero section for Gadin Technologies featuring a background image, overlay, headline, tagline, and two CTA buttons that smooth-scroll to Products and Contact sections.",
+  "frontend/src/components/ProductsSection.tsx": "Products section showcasing premium foxnuts with a product image, feature checklist, nutritional specs, and quality badges like Gluten Free and Vegan.",
+  "frontend/src/components/WhyChooseUsSection.tsx": "Six-card grid section on a dark primary background highlighting key differentiators such as quality control, logistics, certifications, and customer support.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and caches an ICP backend actor (authenticated or anonymous) using React Query, and invalidates dependent queries whenever the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides an InternetIdentityProvider and useInternetIdentity hook that manage DFINITY AuthClient lifecycle, login/logout state, and expose the user's identity via React context.",
+  "frontend/src/hooks/useQueries.ts": "Exports two React Query hooks: useGetAllSubmissions for fetching contact form submissions from the backend, and useSubmitContactForm for submitting new ones.",
+  "frontend/src/index.css": "Global stylesheet importing Playfair Display and Inter fonts, defining Tailwind base layers, and setting a warm earthy CSS custom-property color palette for both light and dark modes.",
+  "frontend/src/main.tsx": "Application entry point that mounts the React app wrapped with QueryClientProvider and InternetIdentityProvider.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration for the frontend, extending the default theme with custom earthy color palettes (forest, gold, tan), serif/sans font families, oklch-based semantic color tokens, custom shadows, and animation keyframes. Includes plugins for typography, container queries, and animate.",
+  "project_state.json": "Tracks the current state of the Gadin Technologies foxnut export website project, listing completed features (landing page, navigation, contact form wiring, visual theme, static images, hero text color) and new feature requests with versioning metadata."
+}

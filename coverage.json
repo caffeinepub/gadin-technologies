@@ -1,0 +1,38 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-24T20:09:22.623Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-7",
+        "summary": "In the HeroSection component, change the text color of the company name ('Gadin Technologies'), the tagline ('Nature's Finest Foxnuts, Delivered Worldwide'), and the description paragraph ('We source and export premium-grade foxnuts...') to black.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/HeroSection.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/HeroSection.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/HeroSection.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}
